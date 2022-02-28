@@ -69,7 +69,7 @@ fetch('https://pokeapi.co/api/v2/pokemon/' + pokeTextLookup.value)
         
     pokeName.textContent = "Pokemon Name: " + data.name
     pokeNum.textContent = "Pokemon ID: " + data.id
-    pokeWeight.textContent = "Pokemon Weight: " + data.weight + " lbs"
+    pokeWeight.textContent = "Pokemon Weight: " + (data.weight)/10 + " kg"
     pokeHeight.textContent = "Pokemon Height: " + (data.height)*10 + " cm"
     pokeAbility1.textContent = "Ability 1:" + data.abilities[0].ability.name
     

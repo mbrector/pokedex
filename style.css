@@ -1,15 +1,23 @@
 body{
     background-color: rgb(151, 0, 0);
-    color: rgb(255, 255, 160);
+    color:rgb(255, 233, 110);
+}
+
+#whole{
+    background-color: rgb(68, 68, 68);
+    border: solid;
+    border-width: 20px;
+    border-color: black;
+    width: 25%;
 }
 
 #screen{
     background-color: black;
-    width: 20%;
+    width: 100%;
 }
 
 #pics{
     background-color: lightgray;
-    width: 11%;
+    width: 50%;
     height: 100px;
 }
